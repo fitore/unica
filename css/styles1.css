@@ -1,0 +1,195 @@
+html, body, body div, span, object, iframe, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video  {
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+body,
+input,
+textarea {
+	color: #FFF;
+	font: 1em 'Trebuchet MS', Arial, sans-serif;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #c17d59;
+	text-decoration: underline;
+}
+
+.wrapper {
+	background-color: #FAEADD;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.about {
+	background: #805841;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	padding: 2.5rem 1rem;
+}
+
+.aboutContent {
+    color: #f9efe8;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.col {
+    flex: 1 1 400px;
+    margin: 1rem 2rem 1rem 0;
+}
+
+.about .keys {
+    text-align: center;
+}
+
+.about p {
+    margin: 0.5rem 0 1rem 0;
+}
+
+.about .keys img {
+	height: 300px;
+	width: 300px;
+    opacity: 0.8;
+}
+
+.about .caption {
+    border-bottom: 1px solid;
+    font-size: 0.7rem;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+}
+
+.feed {
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1400px;
+    margin: 1rem auto;
+    justify-content: space-around;
+}
+.feed .instagram-media {
+	flex: 1 1 200px;
+	margin: 1rem 0.5rem !important;
+	max-width: 200px !important;
+}
+
+.feed .EmbedHeader {
+	max-width: 200px;
+}
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+	background-color: #efb9aa;
+    justify-content: center;
+    clear: both;
+	padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+}
+.intro {
+    background: url(../images/unica_wallpaper_collage3.png) no-repeat center center;
+    height: 557px;
+    margin: 0 auto;
+}
+
+.logo {
+	color: #805841;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 280px;
+    padding: 0 60px;
+    background: rgba(255, 255, 255, 0.95);
+    outline: 4px double #FFFFFF;
+    outline-offset: 8px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.logo .title {
+	font-size: 8rem;
+	line-height: 1rem;
+	font-family: 'Montez', cursive, sans-serif;
+}
+
+.logo .subtitle {
+	font-size: 1.08rem;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.contactList {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 1.1rem;
+    list-style-type: none;
+    margin: 0 0 0 2rem;
+    text-align: center;
+}
+
+.contactItem {
+	background: rgba(255, 255, 255, 0.2);
+	display: inline-block;
+	margin: 0 0 0.9rem 0;
+	padding: 1rem 0.5rem;
+}
+
+.contactLink {
+    color: #805841;
+	display: block;
+	padding: 0.5rem 1rem;
+}
+
+.etsy {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    margin: 0 2rem 0 0;
+    padding: 1rem;
+}
+
+.copyright {
+	background-color: #F0B49E;
+	color: #805841;
+	font-size: 1rem;
+	margin: 2.5rem auto 0 auto;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+.bgImage {
+	margin-top: 1rem;
+}
+
+@media (max-width: 700px) {
+	.aboutText {
+		margin-right: 0;
+	}
+    .logo {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 470px) {
+    .contactList,
+    .etsy {
+        margin: 1rem 0.5rem;
+    }
+}
